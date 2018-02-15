@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  background: #dedede;
+  font-family: 'lato', sans-serif;
+}
+
+header {
+  background: #333;
+  height: auto;
+  float: left;
+  width: 100%;
+  position: fixed;
+  transition: all 0.3s ease-in;
+}
+
+header.hide {
+	transform: translateY(-100%);
+}
+
+.button {
+  float: left;
+  margin-left: 100px;
+}
+
+.button ul li {
+  display: inline-block;
+  padding: 15px;
+  list-style-type: none;
+  font-size: 17px;
+}
+
+.button ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+
+.button ul li a:hover {
+  background: #666;
+}
+
+.search {
+  text-align: center;
+  padding: 10px;
+}
+
+.search input[type="text"] {
+  border: none;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  text-indent: 20px;
+}
+
+.search input[placeholder] {
+  font-size: 15px;
+}
+
+.search input[type="submit"] {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  background: #04A1F0;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* container */
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.sub-header img {
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px  gray;
+}
+
+/* card */
+
+.hr hr{
+  border: none;
+  border: 0.3px solid #999;
+  margin: 20px;
+}
+
+.card ul{
+  float: left;
+  padding: 8px;
+  width: 33.3%;
+  box-sizing: border-box;
+}
+
+.card ul li {
+  background: #fff;
+  text-align: center;
+  list-style-type: none;
+  line-height: 60px;
+  border-bottom: 0.5px solid #ccc;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #555;
+  border-radius: 5px;
+}
+
+.card ul .header-blue {
+  background: #04A1F0;
+  color: #fff;
+}
+
+.card ul .change {
+  background: #e3e3e3;
+  color: #000;
+}
+
+/* content */
+
+.content {
+  background: #fff;
+  height: auto;
+  clear: both;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.content h2 {
+  text-transform: uppercase;
+  border-bottom: 0.5px solid #dedede;
+  line-height: 50px;
+  color: #666;
+}
+
+.content .img {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.content .img img{
+  height: 200px;
+  width: 250px;
+}
+
+.content .img img:hover {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1.3);
+    transition: 0.1s;
+}
+
+.content .text-info {
+  line-height: 40px;
+  color: #666;
+}
+
+.contact {
+  background: white;
+  margin-top: 50px;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact h3 {
+  color: #666;
+  border-bottom: 0.5px solid #dedede;
+  line-height: 60px;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.contact .myform {
+  margin: 0 auto;
+}
+
+.contact input {
+
+}
+
+.contact input[type="text"] {
+  width: 400px;
+  height: 45px;
+  border: none;
+  border: 1px solid #dedede;
+  text-indent: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.contact input[placeholder] {
+  font-size: 15px;
+}
+
+.contact textarea {
+  width: 400px;
+  height: 100px;
+  border: none;
+  border: 1px solid #dedede;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact textarea[placeholder] {
+	font-size: 15px;
+}
+
+.contact input[type="submit"] {
+  width: 150px;
+  height: 35px;
+  margin: 20px;
+  border: none;
+  background: #04A1F0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.contact input[type="submit"]:hover {
+  background: #44BEFA;
+  transition: 0.3s;
+}
+
+/* footer */
+
+footer {
+  background: #fff;
+}
+
+footer .img-footer{
+  background-image: url("../img/footer2.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  border-radius: 5px;
+  background-attachment: fixed;
+}
+
+.hrlinie {
+  border: none;
+  border: 0.5px solid #dedede;
+  margin-top: 20px;
+}
+
+footer .footer-link ul {
+  line-height: 50px;
+  padding-left: 100px;
+}
+
+footer .footer-link ul li {
+  display: inline-block;
+  padding: 0px 15px;
+  font-size: 18px;
+
+}
+
+footer .footer-link ul li a {
+  text-decoration: none;
+  color: #666;
+}
+
+footer .footer-link ul li a:hover {
+  color: #444;
+  transition: 0.4s;
+}
+
+footer .footer-copyright {
+  padding: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+}
